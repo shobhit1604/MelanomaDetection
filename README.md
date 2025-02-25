@@ -32,28 +32,26 @@ Even though the model is performing well, some fine-tuning can help: Data Augmen
   No significant overfitting observed: Training and validation accuracy are close to each other throughout the epochs. Validation accuracy surpasses training accuracy in later epochs, which is not typical of overfitting. This could indicate that the model learns better representations or that regularization is effective. Loss curves are decreasing steadily for both training and validation, which is a good sign.
 
 Yes, the validation accuracy has improved compared to the previous model run. The training and validation loss curves are more aligned, suggesting the Dropout layer helped in reducing overfitting.
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- tensorflow 
+- keras 
+- numpy 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was part of Upgrad assignment on Skin cancer ISIC The International Skin Imaging Collaboration Dataset
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@shobhit1604] - feel free to contact me!
 
 
 <!-- Optional -->
